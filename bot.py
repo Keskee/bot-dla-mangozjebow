@@ -6,6 +6,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 15 and d.minute == 28:
-       hook.send("<@&822960885156806697>")
+  if d.hour == 20 and d.minute == 37:
+       hook.send("<@&822960885156806697> ")
        time.sleep(60)
