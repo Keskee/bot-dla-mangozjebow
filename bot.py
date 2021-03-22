@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 22 and d.minute == 03:
+  if d.hour == 22 and d.minute == 05:
        hook.send("Test", file = zdj)
        time.sleep(60)
