@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 8 and d.minute == 10:
-       hook.send('teścik', file = zdj)
+  if d.hour == 20 and d.minute == 37:
+       hook.send("<@&822960885156806697> Czas na joge z marysia!", file = zdj)
        time.sleep(60)
