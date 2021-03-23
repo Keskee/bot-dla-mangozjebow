@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 16 and d.minute == 52:
+  if d.hour == 16 and d.minute == 57:
        hook.send('<@&662300886671818752> Kręcimy śmigłem!', file = zdj)
        time.sleep(60)
