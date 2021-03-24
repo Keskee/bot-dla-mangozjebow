@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 12 and d.minute == 38:
+  if d.hour == 13 and d.minute == 10:
        hook.send('<@&662300886671818752> 2137 AUU!', file = zdj)
        time.sleep(60)
