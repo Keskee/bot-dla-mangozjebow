@@ -8,5 +8,5 @@ while True:
   d = datetime.datetime.today()
   time.sleep(3)
   if d.hour == 20 and d.minute == 37:
-       hook.send('<@&822960885156806697> !', file = zdj)
+       hook.send('<@&822960885156806697> Rozstrzelac UwU', file = zdj)
        time.sleep(60)
