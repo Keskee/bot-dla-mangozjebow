@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 11 and d.minute == 40:
+  if d.hour == 11 and d.minute == 10:
        hook.send('test, bo zmiana czasu', file = zdj)
        time.sleep(60)
