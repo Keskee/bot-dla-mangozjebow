@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 08 and d.minute == 50:
+  if d.hour == 09 and d.minute == 15:
        hook.send('<@&662300886671818752> AVOCADOS :avocado: FROM :flag_pl:', file = zdj)
        time.sleep(60)
