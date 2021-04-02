@@ -3,7 +3,7 @@ import datetime
 import time
 hook = Webhook('https://discord.com/api/webhooks/822960791849664562/mjYqmK9LLYGECgASlw84kw-VTz1L0wcw_AnappyCEQjojp1eourOQvi0cTQRFeF4DowO')
 d = datetime.datetime.today()
-zdj = File('2137.gif')
+zdj = File('papiezyk.jpg')
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
