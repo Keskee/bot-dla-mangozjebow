@@ -8,5 +8,5 @@ while True:
   d = datetime.datetime.today()
   time.sleep(3)
   if d.hour == 19 and d.minute == 37:
-       hook.send('<@&822960885156806697> profilaktyczne 2137')
+       hook.send('<@&822960885156806697> 2137 na umilenie wieczorku')
        time.sleep(60)
