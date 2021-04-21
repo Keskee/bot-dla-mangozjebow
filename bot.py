@@ -7,6 +7,6 @@ d = datetime.datetime.today()
 while True:
   d = datetime.datetime.today()
   time.sleep(3)
-  if d.hour == 19 and d.minute == 37:
-       hook.send('<@&822960885156806697> takie se 2137')
+  if d.hour == 7 and d.minute == 40:
+       hook.send('<@&355011536240115712> Pamiętaj nicponiu o religii za 5 minut!')
        time.sleep(60)
